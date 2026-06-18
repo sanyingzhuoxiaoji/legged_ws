@@ -1,0 +1,7 @@
+open_karto
+/home/csy/legged_ws/devel/.private/open_karto/share/open_karto/cmake/open_kartoConfig-version.cmake /home/csy/legged_ws/devel/share/open_karto/cmake/open_kartoConfig-version.cmake
+/home/csy/legged_ws/devel/.private/open_karto/share/open_karto/cmake/open_kartoConfig.cmake /home/csy/legged_ws/devel/share/open_karto/cmake/open_kartoConfig.cmake
+/home/csy/legged_ws/devel/.private/open_karto/lib/libkarto.so /home/csy/legged_ws/devel/lib/libkarto.so
+/home/csy/legged_ws/devel/.private/open_karto/lib/pkgconfig/open_karto.pc /home/csy/legged_ws/devel/lib/pkgconfig/open_karto.pc
+/home/csy/legged_ws/devel/.private/open_karto/lib/open_karto/Karto_Tutorial1 /home/csy/legged_ws/devel/lib/open_karto/Karto_Tutorial1
+/home/csy/legged_ws/devel/.private/open_karto/lib/open_karto/Karto_Tutorial2 /home/csy/legged_ws/devel/lib/open_karto/Karto_Tutorial2

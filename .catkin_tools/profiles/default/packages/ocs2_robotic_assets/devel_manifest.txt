@@ -1,0 +1,4 @@
+ocs2_robotic_assets
+/home/csy/legged_ws/devel/.private/ocs2_robotic_assets/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig.cmake /home/csy/legged_ws/devel/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_robotic_assets/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_robotic_assets/cmake/ocs2_robotic_assetsConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_robotic_assets/lib/pkgconfig/ocs2_robotic_assets.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_robotic_assets.pc

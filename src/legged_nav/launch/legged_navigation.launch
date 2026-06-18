@@ -1,0 +1,50 @@
+<launch>
+    <!--
+        Navigation Launch for A1 Legged Robot
+        This launch file starts:
+        1. Gazebo simulation
+        2. Legged controller
+        3. Map server
+        4. AMCL localization
+        5. Move_base navigation
+        6. RViz for visualization
+    -->
+
+    <arg name="robot_type" default="$(env ROBOT_TYPE)" doc="Robot type: [a1, aliengo, go1]"/>
+    <arg name="map_file" default="$(find legged_nav)/maps/my_map.yaml" doc="Map file for navigation"/>
+    <arg name="use_rviz" default="false" doc="Start RViz"/>
+    <arg name="initial_pose_x" default="0.0"/>
+    <arg name="initial_pose_y" default="0.0"/>
+    <arg name="initial_pose_a" default="0.0"/>
+
+    <!-- 1. Start Gazebo simulation -->
+    <include file="$(find legged_unitree_description)/launch/empty_world.launch">
+        <arg name="robot_type" value="$(arg robot_type)"/>
+    </include>
+
+    <!-- 2. Load and start the controller -->
+    <include file="$(find legged_controllers)/launch/load_controller.launch">
+        <arg name="robot_type" value="$(arg robot_type)"/>
+    </include>
+
+    <!-- 3. Map Server -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)">
+        <param name="frame_id" value="map"/>
+    </node>
+
+    <!-- 4. AMCL Localization -->
+    <include file="$(find legged_nav)/launch/amcl.launch">
+        <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
+        <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
+        <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
+    </include>
+
+    <!-- 5. Move_base Navigation -->
+    <include file="$(find legged_nav)/launch/move_base.launch"/>
+
+    <!-- 6. RViz visualization -->
+    <group if="$(arg use_rviz)">
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find legged_nav)/rviz/nav.rviz" required="false"/>
+    </group>
+
+</launch>

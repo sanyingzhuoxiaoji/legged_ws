@@ -1,0 +1,5 @@
+legged_control/legged_interface
+/home/csy/legged_ws/devel/.private/legged_interface/share/legged_interface/cmake/legged_interfaceConfig-version.cmake /home/csy/legged_ws/devel/share/legged_interface/cmake/legged_interfaceConfig-version.cmake
+/home/csy/legged_ws/devel/.private/legged_interface/share/legged_interface/cmake/legged_interfaceConfig.cmake /home/csy/legged_ws/devel/share/legged_interface/cmake/legged_interfaceConfig.cmake
+/home/csy/legged_ws/devel/.private/legged_interface/lib/liblegged_interface.so /home/csy/legged_ws/devel/lib/liblegged_interface.so
+/home/csy/legged_ws/devel/.private/legged_interface/lib/pkgconfig/legged_interface.pc /home/csy/legged_ws/devel/lib/pkgconfig/legged_interface.pc

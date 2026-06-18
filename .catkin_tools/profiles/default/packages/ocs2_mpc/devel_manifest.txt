@@ -1,0 +1,6 @@
+ocs2/ocs2_mpc
+/home/csy/legged_ws/devel/.private/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_mpc/cmake/ocs2_mpcConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_mpc/share/ocs2_mpc/cmake/ocs2_mpcConfig.cmake /home/csy/legged_ws/devel/share/ocs2_mpc/cmake/ocs2_mpcConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_mpc/lib/libocs2_mpc.so /home/csy/legged_ws/devel/lib/libocs2_mpc.so
+/home/csy/legged_ws/devel/.private/ocs2_mpc/lib/pkgconfig/ocs2_mpc.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_mpc.pc
+/home/csy/legged_ws/devel/.private/ocs2_mpc/lib/ocs2_mpc/ocs2_mpc_lintTarget /home/csy/legged_ws/devel/lib/ocs2_mpc/ocs2_mpc_lintTarget

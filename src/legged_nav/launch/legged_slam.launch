@@ -1,0 +1,34 @@
+<launch>
+    <!--
+        SLAM Mapping Launch for A1 Legged Robot
+        This launch file starts:
+        1. Gazebo simulation
+        2. Legged controller (with default standing pose)
+        3. SLAM mapping (slam_karto)
+        4. RViz for visualization
+    -->
+
+    <arg name="robot_type" default="$(env ROBOT_TYPE)" doc="Robot type: [a1, aliengo, go1]"/>
+    <arg name="use_rviz" default="true" doc="Start RViz"/>
+    <arg name="world_name" default="$(find legged_gazebo)/worlds/empty_world.world" doc="World file for SLAM testing"/>
+
+    <!-- 1. Start Gazebo simulation -->
+    <include file="$(find legged_unitree_description)/launch/empty_world.launch">
+        <arg name="robot_type" value="$(arg robot_type)"/>
+        <arg name="world_name" value="$(arg world_name)"/>
+    </include>
+
+    <!-- 2. Load and start the controller -->
+    <include file="$(find legged_controllers)/launch/load_controller.launch">
+        <arg name="robot_type" value="$(arg robot_type)"/>
+    </include>
+
+    <!-- 3. Start SLAM mapping (slam_karto) -->
+    <include file="$(find slam_karto)/launch/karto_slam.launch"/>
+
+    <!-- 4. RViz visualization -->
+    <group if="$(arg use_rviz)">
+        <node name="rviz" pkg="rviz" type="rviz" args="-d $(find legged_nav)/rviz/slam.rviz" required="false"/>
+    </group>
+
+</launch>

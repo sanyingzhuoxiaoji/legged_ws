@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rostopic list *)",
+      "Bash(timeout 3 rostopic echo /legged_robot_mpc_observation -n 3)",
+      "Bash(timeout 3 rostopic echo /lowstatemsgs -n 3)",
+      "Bash(rostopic info *)",
+      "Bash(rosservice list *)",
+      "Bash(rosservice call *)",
+      "Bash(timeout 2 rostopic echo /gazebo/model_states -n 1)",
+      "Bash(timeout 2 rostopic echo /joint_states -n 2)",
+      "Bash(timeout 2 rostopic echo /legged_robot_mpc_observation -n 1)",
+      "Bash(timeout 2 rostopic echo /legged_robot/optimizedStateTrajectory -n 1)",
+      "Bash(timeout 3 rostopic echo /legged_robot/desiredBaseTrajectory -n 1)",
+      "Bash(timeout 3 rostopic echo /legged_robot_mpc_target -n 1)"
+    ]
+  }
+}

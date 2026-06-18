@@ -1,0 +1,4 @@
+kindr
+/home/csy/legged_ws/devel/.private/kindr/share/kindr/cmake/kindrConfig.cmake /home/csy/legged_ws/devel/share/kindr/cmake/kindrConfig.cmake
+/home/csy/legged_ws/devel/.private/kindr/share/kindr/cmake/kindrConfig-version.cmake /home/csy/legged_ws/devel/share/kindr/cmake/kindrConfig-version.cmake
+/home/csy/legged_ws/devel/.private/kindr/lib/pkgconfig/kindr.pc /home/csy/legged_ws/devel/lib/pkgconfig/kindr.pc

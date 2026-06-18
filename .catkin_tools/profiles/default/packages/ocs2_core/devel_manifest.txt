@@ -1,0 +1,6 @@
+ocs2/ocs2_core
+/home/csy/legged_ws/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig.cmake /home/csy/legged_ws/devel/share/ocs2_core/cmake/ocs2_coreConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_core/lib/libocs2_core.so /home/csy/legged_ws/devel/lib/libocs2_core.so
+/home/csy/legged_ws/devel/.private/ocs2_core/lib/pkgconfig/ocs2_core.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_core.pc
+/home/csy/legged_ws/devel/.private/ocs2_core/lib/ocs2_core/ocs2_core_lintTarget /home/csy/legged_ws/devel/lib/ocs2_core/ocs2_core_lintTarget

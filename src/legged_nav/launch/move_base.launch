@@ -1,0 +1,22 @@
+<launch>
+    <!-- Move_base navigation stack for legged robot -->
+    <arg name="base_local_planner" default="dwa_local_planner/DWAPlannerROS"/>
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <!-- Common costmap parameters -->
+        <rosparam file="$(find legged_nav)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find legged_nav)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+        <!-- Global costmap parameters -->
+        <rosparam file="$(find legged_nav)/param/global_costmap_params.yaml" command="load" />
+
+        <!-- Local costmap parameters -->
+        <rosparam file="$(find legged_nav)/param/local_costmap_params.yaml" command="load" />
+
+        <!-- Local planner parameters -->
+        <rosparam file="$(find legged_nav)/param/base_local_planner_params.yaml" command="load" />
+
+        <!-- Topic remappings for legged robot -->
+        <remap from="cmd_vel" to="/cmd_vel" />
+    </node>
+</launch>

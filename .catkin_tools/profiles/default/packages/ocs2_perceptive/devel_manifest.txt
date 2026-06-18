@@ -1,0 +1,6 @@
+ocs2/ocs2_perceptive
+/home/csy/legged_ws/devel/.private/ocs2_perceptive/share/ocs2_perceptive/cmake/ocs2_perceptiveConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_perceptive/cmake/ocs2_perceptiveConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_perceptive/share/ocs2_perceptive/cmake/ocs2_perceptiveConfig.cmake /home/csy/legged_ws/devel/share/ocs2_perceptive/cmake/ocs2_perceptiveConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_perceptive/lib/libocs2_perceptive.so /home/csy/legged_ws/devel/lib/libocs2_perceptive.so
+/home/csy/legged_ws/devel/.private/ocs2_perceptive/lib/pkgconfig/ocs2_perceptive.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_perceptive.pc
+/home/csy/legged_ws/devel/.private/ocs2_perceptive/lib/ocs2_perceptive/ocs2_perceptive_lintTarget /home/csy/legged_ws/devel/lib/ocs2_perceptive/ocs2_perceptive_lintTarget

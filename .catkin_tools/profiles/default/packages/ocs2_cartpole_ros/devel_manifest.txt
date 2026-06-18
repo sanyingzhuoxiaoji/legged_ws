@@ -1,0 +1,6 @@
+ocs2/ocs2_robotic_examples/ocs2_cartpole_ros
+/home/csy/legged_ws/devel/.private/ocs2_cartpole_ros/share/ocs2_cartpole_ros/cmake/ocs2_cartpole_rosConfig.cmake /home/csy/legged_ws/devel/share/ocs2_cartpole_ros/cmake/ocs2_cartpole_rosConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_cartpole_ros/share/ocs2_cartpole_ros/cmake/ocs2_cartpole_rosConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_cartpole_ros/cmake/ocs2_cartpole_rosConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_cartpole_ros/lib/pkgconfig/ocs2_cartpole_ros.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_cartpole_ros.pc
+/home/csy/legged_ws/devel/.private/ocs2_cartpole_ros/lib/ocs2_cartpole_ros/cartpole_mpc /home/csy/legged_ws/devel/lib/ocs2_cartpole_ros/cartpole_mpc
+/home/csy/legged_ws/devel/.private/ocs2_cartpole_ros/lib/ocs2_cartpole_ros/cartpole_dummy_test /home/csy/legged_ws/devel/lib/ocs2_cartpole_ros/cartpole_dummy_test

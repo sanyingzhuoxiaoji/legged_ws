@@ -1,0 +1,5 @@
+ocs2/ocs2_robotic_examples/ocs2_cartpole
+/home/csy/legged_ws/devel/.private/ocs2_cartpole/share/ocs2_cartpole/cmake/ocs2_cartpoleConfig.cmake /home/csy/legged_ws/devel/share/ocs2_cartpole/cmake/ocs2_cartpoleConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_cartpole/share/ocs2_cartpole/cmake/ocs2_cartpoleConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_cartpole/cmake/ocs2_cartpoleConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_cartpole/lib/libocs2_cartpole.so /home/csy/legged_ws/devel/lib/libocs2_cartpole.so
+/home/csy/legged_ws/devel/.private/ocs2_cartpole/lib/pkgconfig/ocs2_cartpole.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_cartpole.pc

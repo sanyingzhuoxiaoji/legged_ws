@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+    <world name="slam_test">
+        <!-- Physics settings -->
+        <physics type="ode">
+            <max_step_size>0.001</max_step_size>
+            <real_time_update_rate>1000</real_time_update_rate>
+            <iters>50</iters>
+        </physics>
+
+        <!-- Global light source -->
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <!-- Ground plane -->
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <!-- Wall 1 - Long wall -->
+        <model name="wall_1">
+            <static>true</static>
+            <pose>5 0 0.5 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 1</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.5 0.5 0.5 1</ambient>
+                        <diffuse>0.5 0.5 0.5 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Wall 2 - Side wall -->
+        <model name="wall_2">
+            <static>true</static>
+            <pose>0 5 0.5 0 0 1.57</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 1</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.5 0.5 0.5 1</ambient>
+                        <diffuse>0.5 0.5 0.5 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Wall 3 - Another wall -->
+        <model name="wall_3">
+            <static>true</static>
+            <pose>-3 2 0.5 0 0 1.57</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 6 1</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 6 1</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.5 0.5 0.5 1</ambient>
+                        <diffuse>0.5 0.5 0.5 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- Box obstacles -->
+        <model name="box_1">
+            <static>true</static>
+            <pose>2 2 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.2 0.2 1</ambient>
+                        <diffuse>0.8 0.2 0.2 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <model name="box_2">
+            <static>true</static>
+            <pose>2 -2 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.2 0.8 0.2 1</ambient>
+                        <diffuse>0.2 0.8 0.2 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <model name="box_3">
+            <static>true</static>
+            <pose>-2 -3 0.25 0 0 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.5 0.5 0.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.2 0.2 0.8 1</ambient>
+                        <diffuse>0.2 0.2 0.8 1</diffuse>
+                    </material>
+                </visual>
+            </link>
+        </model>
+    </world>
+</sdf>

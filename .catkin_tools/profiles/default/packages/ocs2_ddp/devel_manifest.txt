@@ -1,0 +1,6 @@
+ocs2/ocs2_ddp
+/home/csy/legged_ws/devel/.private/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake /home/csy/legged_ws/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_ddp/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_ddp/cmake/ocs2_ddpConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_ddp/lib/libocs2_ddp.so /home/csy/legged_ws/devel/lib/libocs2_ddp.so
+/home/csy/legged_ws/devel/.private/ocs2_ddp/lib/pkgconfig/ocs2_ddp.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_ddp.pc
+/home/csy/legged_ws/devel/.private/ocs2_ddp/lib/ocs2_ddp/ocs2_ddp_lintTarget /home/csy/legged_ws/devel/lib/ocs2_ddp/ocs2_ddp_lintTarget

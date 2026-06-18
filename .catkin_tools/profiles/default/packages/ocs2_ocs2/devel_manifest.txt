@@ -1,0 +1,5 @@
+ocs2/ocs2_ocs2
+/home/csy/legged_ws/devel/.private/ocs2_ocs2/share/ocs2_ocs2/cmake/ocs2_ocs2Config.cmake /home/csy/legged_ws/devel/share/ocs2_ocs2/cmake/ocs2_ocs2Config.cmake
+/home/csy/legged_ws/devel/.private/ocs2_ocs2/share/ocs2_ocs2/cmake/ocs2_ocs2Config-version.cmake /home/csy/legged_ws/devel/share/ocs2_ocs2/cmake/ocs2_ocs2Config-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_ocs2/lib/pkgconfig/ocs2_ocs2.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_ocs2.pc
+/home/csy/legged_ws/devel/.private/ocs2_ocs2/lib/ocs2_ocs2/ocs2_ocs2_lintTarget /home/csy/legged_ws/devel/lib/ocs2_ocs2/ocs2_ocs2_lintTarget

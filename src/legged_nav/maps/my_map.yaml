@@ -1,0 +1,7 @@
+image: /home/csy/legged_ws/src/legged_nav/maps/my_map.pgm
+resolution: 0.050000
+origin: [-5.275297, -4.932079, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

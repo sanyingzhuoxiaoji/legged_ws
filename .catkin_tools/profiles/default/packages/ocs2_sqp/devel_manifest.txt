@@ -1,0 +1,5 @@
+ocs2/ocs2_sqp/ocs2_sqp
+/home/csy/legged_ws/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake /home/csy/legged_ws/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake
+/home/csy/legged_ws/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake /home/csy/legged_ws/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake
+/home/csy/legged_ws/devel/.private/ocs2_sqp/lib/libocs2_sqp.so /home/csy/legged_ws/devel/lib/libocs2_sqp.so
+/home/csy/legged_ws/devel/.private/ocs2_sqp/lib/pkgconfig/ocs2_sqp.pc /home/csy/legged_ws/devel/lib/pkgconfig/ocs2_sqp.pc

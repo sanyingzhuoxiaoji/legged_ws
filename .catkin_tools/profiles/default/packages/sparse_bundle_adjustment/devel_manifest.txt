@@ -1,0 +1,5 @@
+sparse_bundle_adjustment
+/home/csy/legged_ws/devel/.private/sparse_bundle_adjustment/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig-version.cmake /home/csy/legged_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig-version.cmake
+/home/csy/legged_ws/devel/.private/sparse_bundle_adjustment/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake /home/csy/legged_ws/devel/share/sparse_bundle_adjustment/cmake/sparse_bundle_adjustmentConfig.cmake
+/home/csy/legged_ws/devel/.private/sparse_bundle_adjustment/lib/libsba.so /home/csy/legged_ws/devel/lib/libsba.so
+/home/csy/legged_ws/devel/.private/sparse_bundle_adjustment/lib/pkgconfig/sparse_bundle_adjustment.pc /home/csy/legged_ws/devel/lib/pkgconfig/sparse_bundle_adjustment.pc
