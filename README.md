@@ -11,6 +11,7 @@
 在运行任何节点前，请确保工作空间已正确编译。
 
 > ⚠️ **编译避坑指南**：本项目工作空间由 `catkin build` 进行管理，**严禁混用 `catkin_make**`，否则会导致动态库冲突并引发 RViz `Segmentation fault` 崩溃。
+>  廖教授项目源码编译可参考：https://github.com/qiayuanl/legged_control
 
 ```bash
 cd ~/legged_ws
